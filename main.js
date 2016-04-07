@@ -7,7 +7,7 @@ var createPattern = function(path)
 
 var framework = function(files)
 {
-    files.unshift(createPattern(__dirname+'/node_modules/karma-jstd-adapter/jstd-adapter.js'));
+    files.unshift(createPattern(require.resolve('karma-jstd-adapter')));
 };
 
 framework.$inject = ['config.files'];
