@@ -9,7 +9,7 @@
   "author": "Adam Brunner",
   "license": "MIT",
   "dependencies": {
-    "karma-jstd-adapter": "0.0.3"
+    "karma-jstd-adapter": "tylerc/karma-jstd-adapter#392c070"
   },
   "keywords": [
     "jstestdriver",
