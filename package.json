@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Adam Brunner",
+  "author": "Adam Banky",
   "license": "MIT",
   "dependencies": {
     "karma-jstd-adapter": "tylerc/karma-jstd-adapter#392c070"
