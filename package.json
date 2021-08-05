@@ -1,6 +1,6 @@
 {
   "name": "karma-jstd-framework",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A framework for karma, so you can run your js-test-driver tests with jasmine.",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Adam Banky",
   "license": "MIT",
   "dependencies": {
-    "karma-jstd-adapter": "tylerc/karma-jstd-adapter#392c070"
+    "@caplin/karma-jstd-adapter": "1.1.1"
   },
   "keywords": [
     "jstestdriver",

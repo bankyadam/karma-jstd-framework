@@ -7,7 +7,7 @@ var createPattern = function(path)
 
 var framework = function(files)
 {
-    files.unshift(createPattern(require.resolve('karma-jstd-adapter')));
+    files.unshift(createPattern(require.resolve('@caplin/karma-jstd-adapter')));
 };
 
 framework.$inject = ['config.files'];
